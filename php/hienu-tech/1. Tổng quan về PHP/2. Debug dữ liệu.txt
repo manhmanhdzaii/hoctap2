@@ -1,0 +1,2 @@
+ - var_dump($variable) -> trả về kiểu dữ liệu + giá trị
+ - print_r($arr) -> dùng để in ra mảng và đối tượng 

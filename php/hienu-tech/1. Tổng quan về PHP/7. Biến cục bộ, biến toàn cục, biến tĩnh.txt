@@ -1,0 +1,10 @@
+
+# Biến cục bộ là biến được sử dụng trong phạm vi hàm
+# Biến cục bộ không được sử dụng bên ngoài hàm và trong hàm khác
+
+# Biến toàn cục là biến được sử dụng ở bất kỳ đâu
+# Biến toàn cục được khai báo ở ngoài hàm
+# Muốn sử dụng biến toàn cục bên trong hàm => Phải được khai báo bằng từ khóa global
+VD: global $bientoancuc;
+
+#Biến tĩnh: Không thay đổi giá trị khi gọi hàm

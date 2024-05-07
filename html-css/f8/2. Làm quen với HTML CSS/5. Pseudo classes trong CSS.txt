@@ -1,0 +1,23 @@
+# Pseudo classes trong CSS
+
+ - :root: Pseudo-class :root được sử dụng để chọn phần tử gốc (root) của tài liệu HTML, tức là phần tử <html>. 
+Nó thường được sử dụng để định nghĩa biến toàn cục trong CSS. 
+Ví dụ: :root { --primary-color: blue; }.
+
+ - :hover: Pseudo-class :hover được sử dụng để chọn phần tử khi con trỏ chuột di chuyển qua phần tử đó. 
+Nó cho phép bạn thay đổi kiểu dáng của phần tử khi con trỏ chuột di chuyển qua nó. 
+Ví dụ: a:hover { color: red; }.
+
+ - :active: Pseudo-class :active được sử dụng để chọn phần tử trong quá trình được nhấn giữ. 
+Nó áp dụng kiểu dáng cho phần tử khi người dùng nhấn chuột xuống trên nó. 
+Ví dụ: button:active { background-color: green; }.
+
+ - :first-child: Pseudo-class :first-child được sử dụng để chọn phần tử là con đầu tiên của phần tử cha. 
+Nó cho phép bạn áp dụng kiểu dáng cho phần tử con đầu tiên trong một nhóm các phần tử con cùng cấp. 
+Ví dụ: li:first-child { font-weight: bold; }.
+
+ - :last-child: Pseudo-class :last-child được sử dụng để chọn phần tử là con cuối cùng của phần tử cha. 
+Nó cho phép bạn áp dụng kiểu dáng cho phần tử con cuối cùng trong một nhóm các phần tử con cùng cấp. 
+Ví dụ: li:last-child { color: red; }.
+
+Các pseudo-class trong CSS cung cấp khả năng chọn lọc và tương tác với các phần tử trong tài liệu HTML dựa trên trạng thái, vị trí và cấu trúc của chúng.

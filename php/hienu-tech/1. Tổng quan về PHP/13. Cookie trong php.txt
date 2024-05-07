@@ -1,0 +1,8 @@
+# Cookie là một chuỗi thông tin được lưu ở trình duyệt người dùng để theo dõi,
+lưu lại lịch sử người dùng, tăng sự trải nghiệm
+
+ # Một số chức năng của cookie:
+- Ghi nhớ đăng nhập
+- Lịch sử tìm kiếm sản phẩm trên website
+- Lịch sử sản phẩm đã xem
+- Gợi ý sản phẩm, dịch vụ(Dựa vào thói quen tìm kiếm, xem sản phẩm..)

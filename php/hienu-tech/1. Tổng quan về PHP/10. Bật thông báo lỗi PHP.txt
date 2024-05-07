@@ -1,0 +1,22 @@
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
+
+
+ ## ini_set('display_errors', '1');
+
+	Dòng này sử dụng hàm ini_set để cấu hình một tùy chọn cụ thể trong cấu hình PHP (php.ini).
+'display_errors' là tên của tùy chọn mà chúng ta muốn cấu hình. Trong trường hợp này, chúng ta đang cấu hình tùy chọn để hiển thị các thông báo lỗi.
+'1' là giá trị mà chúng ta gán cho tùy chọn 'display_errors'. Trong ngôn ngữ cấu hình PHP, giá trị '1' đại diện cho việc bật (enable) tùy chọn. Điều này có nghĩa là chúng ta muốn hiển thị các thông báo lỗi.
+
+ ## ini_set('display_startup_errors', '1');
+
+	Tương tự như dòng trước, dòng này cũng sử dụng ini_set để cấu hình một tùy chọn. Trong trường hợp này, chúng ta cấu hình tùy chọn 'display_startup_errors'.
+'display_startup_errors' là tùy chọn để hiển thị thông báo lỗi khi PHP khởi động (startup).
+'1' là giá trị để bật tùy chọn 'display_startup_errors', nghĩa là chúng ta muốn hiển thị thông báo lỗi khi PHP khởi động.
+
+ ## error_reporting(E_ALL);
+
+	Dòng này sử dụng hàm error_reporting để đặt mức độ báo cáo lỗi (error reporting level).
+E_ALL là một hằng số trong PHP đại diện cho tất cả các loại lỗi. Bằng cách đặt mức báo cáo lỗi thành E_ALL, chúng ta cho phép PHP hiển thị tất cả các loại lỗi, từ các lỗi cú pháp đến các cảnh báo và lỗi nghiêm trọng hơn.
+Khi kết hợp với các dòng ini_set ở trên, điều này đảm bảo rằng tất cả các loại lỗi sẽ được hiển thị trên trang web hoặc trong log lỗi khi có lỗi xảy ra trong mã nguồn PHP.

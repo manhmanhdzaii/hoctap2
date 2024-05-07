@@ -1,0 +1,19 @@
+# CSS function
+ - var(): Hàm var() được sử dụng để định nghĩa một biến CSS. Nó cho phép bạn đặt giá trị của một biến và sử dụng nó trong các thuộc tính CSS khác. 
+Ví dụ: --primary-color: blue; color: var(--primary-color);.
+
+ - linear-gradient(): Hàm linear-gradient() được sử dụng để tạo hiệu ứng gradient tuyến tính trong CSS. 
+Nó cho phép bạn xác định các điểm dừng và màu sắc cho gradient. Ví dụ: background: linear-gradient(to right, red, blue);.
+
+ - rgba(): Hàm rgba() được sử dụng để xác định một màu sắc trong CSS với độ trong suốt. Nó cho phép bạn chỉ định giá trị đỏ, xanh lá cây, xanh dương và độ trong suốt của màu sắc.
+ Ví dụ: color: rgba(255, 0, 0, 0.5); (màu đỏ có độ trong suốt là 0.5).
+
+ - rgb(): Hàm rgb() được sử dụng để xác định một màu sắc trong CSS. Nó cho phép bạn chỉ định giá trị đỏ, xanh lá cây và xanh dương của màu sắc. 
+Ví dụ: background-color: rgb(255, 0, 0); (màu đỏ).
+
+ - calc(): Hàm calc() được sử dụng để thực hiện tính toán trong CSS. Nó cho phép bạn thực hiện các phép tính cộng, trừ, nhân và chia trên các giá trị CSS.
+Ví dụ: width: calc(100% - 20px);.
+
+ - attr(): Hàm attr() được sử dụng để lấy giá trị của thuộc tính HTML và sử dụng nó trong CSS. Nó cho phép bạn truy cập các giá trị như thuộc tính data-* hoặc thuộc tính khác. Ví dụ: content: attr(data-text);.
+
+Các hàm và đặc điểm này trong CSS cung cấp khả năng linh hoạt và tùy chỉnh trong việc xác định màu sắc, tính toán và sử dụng các giá trị trong CSS.

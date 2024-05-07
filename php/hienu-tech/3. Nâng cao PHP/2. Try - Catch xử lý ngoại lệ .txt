@@ -1,0 +1,22 @@
+try{
+
+}catch(Exception $e){
+	echo $e->getMessage().'<br>';
+	echo 'File: ' . $e->getFile().'<br>';
+	echo 'Line: ' . $e->getLine();
+}
+
+
+// Hàm xử lý lỗi tùy chỉnh
+function customErrorHandler($errno, $errstr, $errfile, $errline) {
+    echo "Có lỗi xảy ra: $errstr";
+    echo "File: $errfile";
+    echo "Line: $errline";
+    // Thực hiện các xử lý khác nếu cần thiết
+}
+
+// Thiết lập hàm xử lý lỗi tùy chỉnh
+set_error_handler("customErrorHandler");
+
+// Sử dụng một hàm không tồn tại để gây ra lỗi
+haha();

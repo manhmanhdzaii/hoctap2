@@ -1,0 +1,14 @@
+ ## Phương thức GET trong PHP
+
+ - Client gửi lên: Phương thức GET là phương thức gửi dữ liệu thông qua đường dẫn URL nằm trên thanh điện chỉ Browser. Server sẽ nhận 
+đường dẫn đó và phân tích trả về kết quả cho bạn.
+
+ - Server nhận dữ liệu: Tất cả dữ liệu mà Client gửi lên bằng phương thức GET đều được lưu trong biến toàn cục mà PHP tự tạo ra đó là biến
+$_GET, biến này là kiểu mảng kết hợp lưu trữ danh sách dữ liệu từ client gửi lên theo quy luật key => value
+
+ ## Phương thức POST trong PHP
+
+ - Client gửi lên: Phương thức POST sẽ gửi dữ liệu qua 1 cái form HTML và các giá trị được định nghĩa trong các thẻ sẽ nhận được dạng thông qua name của thẻ
+
+ - Server nhận dữ liệu: Tất cả dữ liệu gửi lên bằng phương thức POST đều được lưu trong biến toàn cục mà PHP tự tạo ra đó là biến
+$_POST

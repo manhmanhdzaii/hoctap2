@@ -1,0 +1,49 @@
+CREATE DATABASE test_php CHARACTER SET UTF8 COLLATE utf8_unicode_ci;
+
+
+### Trong một bảng cơ sở dữ liệu, bạn có thể có nhiều index, unique và khóa ngoại,
+ trong khi chỉ có một khóa chính (primary key).
+
+ * Khóa chính (Primary Key):
+
+ - Chỉ có một khóa chính trong mỗi bảng.
+ - Được sử dụng để định danh duy nhất cho mỗi bản ghi trong bảng.
+ - Tự động tạo ra một index.
+
+ * Index:
+
+ - Bạn có thể có nhiều index trong mỗi bảng.
+ - Index được sử dụng để tăng tốc độ truy xuất dữ liệu bằng cách tạo một cấu trúc dữ liệu tốt hơn 
+(thường là một cây B-tree) cho cột hoặc tập hợp các cột.
+ - Index có thể được tạo cho cột hoặc tập hợp các cột.
+ - Index không nhất thiết phải là duy nhất (unique), có thể cho phép các giá trị trùng lặp.
+ 
+ * Unique Index:
+
+ - Giống như index, bạn có thể có nhiều unique index trong mỗi bảng.
+ - Unique index đảm bảo rằng mỗi giá trị trong cột (hoặc tập hợp các cột) là duy nhất,
+ không có giá trị trùng lặp.
+ - Unique index thường được sử dụng cho các cột có yêu cầu duy nhất như tên
+ người dùng, địa chỉ email, vv.
+
+ * Khóa ngoại (Foreign Key):
+
+ - Bạn có thể có nhiều khóa ngoại trong mỗi bảng.
+ - Khóa ngoại định nghĩa một mối quan hệ giữa hai bảng, cho phép bạn ánh xạ các 
+giá trị trong một cột của bảng này tới các giá trị trong một cột của bảng khác.
+ - Khóa ngoại đảm bảo tính nhất quán và tham chiếu toàn vẹn dữ liệu giữa 
+các bảng trong cơ sở dữ liệu.
+
+
+Vì vậy, trong khi chỉ có một khóa chính, bạn có thể có nhiều index, unique index và khóa ngoại trong
+ một bảng cơ sở dữ liệu.
+
+
+
+
+
+
+
+
+
+

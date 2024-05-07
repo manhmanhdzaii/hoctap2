@@ -1,0 +1,19 @@
+
+#explode() -  chuyển chuỗi thành mảng
+#implode() -  chuyển mảng thành chuỗi
+#strlen() -  trả về độ dài của chuỗi
+#str_word_count() - trả về số chữ trong chuỗi
+#str_repeat() - lặp chuỗi str với $n lần
+#str_replace() - tìm chuỗi và thay thế
+#md5() - mã hóa chuỗi  32 ký tự
+#sha1() - mã hóa sha1 chuỗi 40 ký tự
+
+#strtolower() - tất cả chữ cái viết thường
+#strtoupper() - tất cả chữ cái viết hoa
+#ucfirst() - chuyển chữ cái đầu tiên viết hoa
+
+#ucwords() - chuyển chữ cái đầu tiên của tất cả các từ trong chuỗi thành viết hoa
+#trim() - xóa ký tự khoảng trắng đầu và cuối
+
+#json_decode() - chuyển chuỗi dạng json thành mảng hoặc object
+#json_encode() - chuyển array hoặc object thành json

@@ -1,0 +1,9 @@
+
+# Biểu thức: Tập hợp các toán tử và toán hạng
+ - Toán hạng: Các phép hay các giá trị a + b
+ - Toán tử: Các phép toán: cộng trừ nhân chia, so sánh..
+
+# Toán tử gán: =, +=, -=, *=, /=, %=, .=
+# Toán tử số học: +, -, *, /, %, **, ++, --
+# Toán tử so sánh: >, <, >=, <=, ==, ===, !=
+# Toán tử lý luận: &&, ||, !

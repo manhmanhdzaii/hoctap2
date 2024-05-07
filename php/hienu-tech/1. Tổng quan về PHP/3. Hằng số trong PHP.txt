@@ -1,0 +1,14 @@
+### Hắng số trong PHP là tên hoặc mã định danh không thể thay đổi trong khi thực hiện chương trình.
+
+ - Các hằng số trong PHP có thể định nghĩa theo 2 cách :
+
+# Sử dụng hàm define()
+# Sử dụng từ khóa const
+
+VD: define('MANH_PHAM', 100), const MANH_PHAM = 100;
+
+ - Sử dụng tên hằng:
+  + Chứa các chữ cái, chữ số, dấu gạch dưới
+  + Bắt đầu bằng chữ cái hoặc gạch dưới
+  + Phân biệt cữ hoa, chữ thường
+  + Nên đặt tên theo quy tắc underscore nhưng viết HOA(VD: WEB_HOST_ROOT) hoặc thêm gạch dưới phía trước 

@@ -1,0 +1,7 @@
+ - PHP là ngôn ngữ lập trình phía serve(hay còn gọi là back-end)
+ - PHP là ngôn ngữ lập trình bậc cao và hoạt động trên nhiều hệ điều hành
+ - PHP tương thích với nhiều hệ quản trị CSDL: MySQL, MongoDB, SQL Server
+ - PHP là mã nguồn mở đa nền tảng và hoàn toàn miễn phí
+ - File PHP được lưu dưới dạng .php và các cú pháp PHP được đặt trong dấu <?php ?>
+ - PHP có rất nhiều Framework, CMS miễn phí, cộng đồng phát triển lớn
+

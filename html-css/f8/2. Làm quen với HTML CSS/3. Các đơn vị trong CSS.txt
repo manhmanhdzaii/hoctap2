@@ -1,0 +1,23 @@
+
+#Absolute units ?(đơn vị tuyệt đối)
+ - px
+ - pt
+ - cm
+ - mm
+ - inch
+ - pc
+
+
+#Relative Units ? (Đơn vị tương đối)
+ - % - nếu theo width, height thì nó theo with thẻ cha
+ - rem - theo font-size của thẻ HTMML
+ - em - theo font-size của thẻ cha
+ - vw - độ rộng theo khung hình html
+ - vh - độ cao theo khung hình html
+ - vmin
+ - vmax
+ - ex
+ - ch
+
+ 
+

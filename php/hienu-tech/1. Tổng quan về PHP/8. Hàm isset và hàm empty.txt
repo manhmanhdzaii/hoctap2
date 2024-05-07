@@ -1,0 +1,10 @@
+ ## Hàm isset()
+	- Kiểm tra biên có tồn tại hoặc null hay không
+	- Không kiểm tra về dữ liệu của biến
+
+
+ ## Hàm empty()
+	- Kiểm tra biến có tồn tại hay không và kiểu dữ liệu
+	- Trả về true nếu: không tồn tại, rỗng, = 0, trống, null, array(object) rỗng, false
+ 
+

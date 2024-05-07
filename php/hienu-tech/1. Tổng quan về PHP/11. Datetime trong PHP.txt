@@ -1,0 +1,12 @@
+  # TimeStamp: Số giây tính từ thời điểm 00:00::00 1/1/1970 đến thời điểm cần xác định
+
+  # Timezone: date_default_timezone_set(), date_default_timezone_get()
+
+  # Hàm date() sẽ xuất ra một chuỗi thời gian dựa vào theo định dạng được truyền vào và số nguyên timestamp
+ 
+  # Cú pháp: date($fomat, $timestamp);
+	
+
+  # Trong đó:
+	- $format là định dạng thời gian mà hàm sẽ trả về
+	- $timestamp là 1 số nguyên timestamp, nếu không truyền tham số này, nó sẽ lấy timestamp của thời điểm hiện tại.

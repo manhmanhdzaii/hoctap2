@@ -1,0 +1,36 @@
+ #### PHP hỗ trợ nhiều kiểu dữ liệu khác nhau. Dưới đây là một số kiểu dữ liệu phổ biến trong PHP:
+
+ - Kiểu số (Number): Kiểu số trong PHP có thể là số nguyên (integer) hoặc số thực (float/double). 
+Ép kiểu: (int)$ten_bien, (float)$ten_bien
+Kiểm tra: is_int(), is_integer(),  is_float()
+Ví dụ: $age = 25, $price = 9.99.
+
+ - Kiểu chuỗi (String): Kiểu chuỗi trong PHP dùng để lưu trữ và xử lý văn bản. Chuỗi được bao quanh bởi dấu nháy đơn ('') hoặc dấu nháy kép (""). 
+Ép kiểu: (string)$ten_bien
+Kiểm tra: is_string()
+Ví dụ: $name = "John Doe".
+
+ - Kiểu boolean: Kiểu boolean chỉ có hai giá trị là true hoặc false, đại diện cho đúng hoặc sai. 
++ Các ký tự 0, trống, null, underfine quy về false, ngược lại là true
+Ép kiểu: (bool)$ten_bien
+Ví dụ: $isLogged = true.
+
+ - Kiểu mảng (Array): Kiểu mảng trong PHP cho phép lưu trữ nhiều giá trị trong một biến duy nhất. 
+Mảng có thể chứa các phần tử với các chỉ số số nguyên hoặc chuỗi.
+Ép kiểu: (array)$ten_bien
+Kiểm tra: is_array()
+Ví dụ: $numbers = [1, 2, 3, 4, 5].
+
+ - Kiểu đối tượng (Object): Kiểu đối tượng trong PHP cho phép tạo ra các đối tượng từ các lớp đã được định nghĩa. 
+Đối tượng chứa các thuộc tính và phương thức. Ví dụ: $person = new Person().
+
+ - Kiểu null: Kiểu null đại diện cho giá trị không có gì hoặc không tồn tại. 
+Ép kiểu sang int bằng 0, string bằng rỗng, bool bằng false
+Kiểm tra: is_null()
+Ví dụ: $variable = null.
+
+- Kiểu tài liệu (Resource): Kiểu tài liệu được sử dụng để đại diện cho một tài nguyên bên ngoài, chẳng hạn như kết nối cơ sở dữ liệu hoặc tệp tin. 
+Ví dụ: $file = fopen("data.txt", "r").
+
+Ngoài ra, PHP còn hỗ trợ các kiểu dữ liệu khác như kiểu callback, kiểu iterable (trong phiên bản PHP 7.1+), kiểu số thập lục phân (hexadecimal),
+ kiểu octal, kiểu nhị phân, và kiểu ngày tháng.

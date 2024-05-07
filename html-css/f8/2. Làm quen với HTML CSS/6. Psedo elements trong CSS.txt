@@ -1,0 +1,23 @@
+# Pseudo elements trong CSS
+
+ - ::before: Pseudo-element ::before được sử dụng để tạo ra một phần tử ảo được chèn vào trước nội dung của phần tử chọn. 
+Nó cho phép bạn thêm nội dung hoặc kiểu dáng vào phần tử mà không cần thay đổi HTML. 
+Ví dụ: p::before { content: "→"; }.
+
+ - ::after: Pseudo-element ::after được sử dụng để tạo ra một phần tử ảo được chèn vào sau nội dung của phần tử chọn. 
+Nó tương tự như ::before nhưng được chèn vào sau phần tử. 
+Ví dụ: p::after { content: " (new)"; }.
+
+ - ::first-letter: Pseudo-element ::first-letter được sử dụng để chọn và kiểu dáng chữ cái đầu tiên trong một phần tử. 
+Nó cho phép bạn áp dụng kiểu dáng đặc biệt cho chữ cái đầu tiên, như làm in đậm hoặc thay đổi kích thước. 
+Ví dụ: p::first-letter { font-size: 2em; }.
+
+ - ::first-line: Pseudo-element ::first-line được sử dụng để chọn và kiểu dáng dòng đầu tiên của một phần tử. 
+Nó cho phép bạn áp dụng kiểu dáng riêng cho dòng đầu tiên, như làm in đậm hoặc thay đổi màu sắc. 
+Ví dụ: p::first-line { font-weight: bold; }.
+
+ - ::selection: Pseudo-element ::selection được sử dụng để chọn và kiểu dáng phần văn bản được người dùng chọn trên trang. 
+Nó cho phép bạn thay đổi màu sắc và kiểu dáng của văn bản khi được chọn. 
+Ví dụ: ::selection { background-color: yellow; }.
+
+Các pseudo-element trong CSS cho phép bạn thêm nội dung hoặc thay đổi kiểu dáng của phần tử mà không cần thay đổi HTML ban đầu. Chúng mở ra khả năng tạo ra hiệu ứng đặc biệt và tùy chỉnh chi tiết hơn trong thiết kế trang web.

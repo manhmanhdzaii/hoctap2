@@ -1,0 +1,4 @@
+Client -> Server (xử lý) - CSDL -> client
+
+Sql: ngôn ngữ truy vấn -> không thay đổi
+MySql: phần mềm, update thường xuyên

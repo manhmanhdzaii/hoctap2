@@ -1,0 +1,11 @@
+ ## Các lớp (Class) và các đối tượng (Object) là hai khía cạnh chính của Lập trình hướng đối tượng
+
+ *** Class:
+ -  Một lớp là 1 tập hợp các biến và hàm độc lập, hoạt động cùng nhau để thực hiện 1 hoặc nhiều
+ tác vụ cụ thể, trong khi các đối tượng là các thể hiện riêng lẻ của 1 lớp
+
+ - Nột lớp hoạt động như 1 khuôn mẫu hoặc bản thiết kế mà từ đó có thể tạo ra rất nhiều dối tượng riêng lẻ
+
+ - Khi các đối tượng riêng lẻ được tạo, chúng kế thừa thuộc tính và hành vi chung giống nhau, mặc dù mỗi đối
+tượng có thể có các giá trị khác nhau cho các thuộc tính nhất định
+
